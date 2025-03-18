@@ -5,7 +5,7 @@ pipeline {
             steps {
                 script {
                     build 'PES1UG22CS680-1'
-                    sh 'g++ -o dogesh PES1UG22CS680.cpp'
+                    sh 'gcc -o dogesh PES1UG22CS680.cpp' //oh no I am stupid
                 }
             }
         }
